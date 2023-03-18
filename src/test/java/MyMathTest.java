@@ -8,7 +8,7 @@ public class MyMathTest
 {
 
     @Test
-    public void exceptionsTest()
+    public void testExceptions()
     {
         MyMath calculator = new MyMath();
         assertThrows(ArithmeticException.class, () -> calculator.divide(219, 0));

@@ -6,8 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 public class PersonTest
 {
     @Test
-    public void constructorTest()
+    public void testConstruction()
     {
+        
         Person testMe = new Person("Joe", "Smith");
 
         assertAll ("The constructor does not set all fields correctly",
